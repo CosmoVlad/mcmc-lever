@@ -10,7 +10,7 @@ We will work with Python 3. It is assumed to have been installed on your compute
 ```
 python3 -m venv /path/to/new/virtual/environment
 ```
-For example, if we want to create a venv called "mcmc" in the current location,
+For example, if we want to create a venv called *mcmc* in the current location,
 ```
 python3 -m venv mcmc
 ```
@@ -22,6 +22,20 @@ To activate the venv from our previous example,
 ```
 source mcmc/bin/activate
 ```
-3. 
+3. To install packages,
+```
+pip install --upgrade pip
+pip install --upgrade setuptools
+pip install numpy scipy matplotlib jupyter
+```
+Any additional packages can be installed by using `pip install` followed by the name of a package.
+4. To launch a jupyter notebook,
+```
+jupyter-notebook
+```
+5. To deactivate the venv,
+```
+deactivate
+```
 
   
