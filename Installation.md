@@ -22,6 +22,10 @@ To activate the venv from our previous example,
 ```
 source mcmc/bin/activate
 ```
+When the venv is activated, its name appears in the beginning of the command line:
+```
+(mcmc) student@class:
+```
 3. To install packages,
 ```
 pip install --upgrade pip
@@ -32,6 +36,42 @@ Any additional packages can be installed by using `pip install` followed by the 
 4. To launch a jupyter notebook,
 ```
 jupyter-notebook
+```
+5. To deactivate the venv,
+```
+deactivate
+```
+
+## Windows
+
+1. To create a venv:
+```
+python -m venv C:\path\to\new\virtual\environment
+```
+For example, if we want to create a venv called *mcmc* in the current location,
+```
+python -m venv mcmc
+```
+2. To activate the venv:
+```
+C:\path\to\new\virtual\environment\Scripts\activate
+```
+To activate the venv from our previous example,
+```
+mcmc\Scripts\activate
+```
+When the venv is activated, its name appears in the beginning of the command line:
+```
+(mcmc) C:\>
+```
+3. To install packages,
+```
+python -m pip install numpy scipy matplotlib jupyter
+```
+Any additional packages can be installed by using `python -m pip install` followed by the name of a package.
+4. To launch a jupyter notebook,
+```
+python -m notebook
 ```
 5. To deactivate the venv,
 ```
