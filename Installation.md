@@ -10,5 +10,18 @@ We will work with Python 3. It is assumed to have been installed on your compute
 ```
 python3 -m venv /path/to/new/virtual/environment
 ```
+For example, if we want to create a venv called "mcmc" in the current location,
+```
+python3 -m venv mcmc
+```
+2. To activate the venv:
+```
+source /path/to/new/virtual/environment/bin/activate
+```
+To activate the venv from our previous example,
+```
+source mcmc/bin/activate
+```
+3. 
 
   
