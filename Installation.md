@@ -32,7 +32,7 @@ pip install --upgrade pip
 pip install --upgrade setuptools
 pip install numpy scipy matplotlib jupyter
 ```
-Any additional packages can be installed by using `pip install` followed by the name of a package.
+   - Any additional packages can be installed by using `pip install` followed by the name of a package.
 4. To launch a jupyter notebook,
 ```
 jupyter-notebook
@@ -68,7 +68,7 @@ When the venv is activated, its name appears in the beginning of the command lin
 ```
 python -m pip install numpy scipy matplotlib jupyter
 ```
-Any additional packages can be installed by using `python -m pip install` followed by the name of a package.
+   - Any additional packages can be installed by using `python -m pip install` followed by the name of a package.
 4. To launch a jupyter notebook,
 ```
 python -m notebook
