@@ -66,6 +66,7 @@ When the venv is activated, its name appears in the beginning of the command lin
 ```
 3. To install packages,
 ```
+python -m pip install --upgrade pip
 python -m pip install numpy scipy matplotlib jupyter
 ```
    - Any additional packages can be installed by using `python -m pip install` followed by the name of a package.
