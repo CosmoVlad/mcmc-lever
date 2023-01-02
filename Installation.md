@@ -71,6 +71,10 @@ python -m pip install numpy scipy matplotlib jupyter
    - Any additional packages can be installed by using `python -m pip install` followed by the name of a package.
 4. To launch a jupyter notebook,
 ```
+jupyter notebook
+```
+If that doesn't work, try
+```
 python -m notebook
 ```
 5. To deactivate the venv,
