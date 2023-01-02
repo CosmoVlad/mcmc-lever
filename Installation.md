@@ -1,5 +1,6 @@
-# Python Virtual Environment
+# Python Virtual Environment / Jupyter Notebooks
 
+We will run tutorials as Jupyter notebooks set up in a Python virtual environment. 
 Virtual environments (venvs) in Python serve as sandboxes for individual projects. Python libraries/packages from separate venvs do not interact with each other. In other words, what happens in a venv stays in the venv. It is almost always a good idea to create a venv for a new project. 
 
 We will work with Python 3. It is assumed to have been installed on your computer. Installation intructions for a virtual environment follow.
